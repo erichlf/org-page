@@ -250,7 +250,7 @@ month and day): " (unless (string= i "")
                                    (?d . "%d")
                                    (?t . ,(encode-string-to-url i)))))))
           (k (read-string "Keywords(separated by comma and space [, ]): "))
-          (a (read-string "Tags(separated by comma and space [, ]): "))
+          (a (read-string "Tags(separated by a colon [:tag1:tag2:...:tagN:]): "))
           (d (read-string "Description: ")))
      (list i u k a d)))
   (if (not (bolp)) (newline))
@@ -324,7 +324,7 @@ responsibility to guarantee the two parameters are valid."
       (op/insert-options-template "<Insert Your Title Here>"
                                   "/%y/%m/%d/%t/"
                                   "add, keywords, here"
-                                  "add, tags, here"
+                                  ":add:tags:here:"
                                   "add description here"))
     (save-buffer)))
 
