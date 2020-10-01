@@ -1,23 +1,27 @@
 #+TITLE:       Quick Guide for Org-page
-#+AUTHOR:      Kelvin Hu
-#+EMAIL:       ini.kelvin@gmail.com
-#+DATE:        2013-08-24 Sat
+#+AUTHOR:      Kevin Hu, Erich L Foster
+#+EMAIL:       erichlf@gmail.com
+#+DATE:        2020-10-01 Thu
 
 
 * Installation
 
-** The manual way (NOT recommended)
+** The manual way (recommended)
 
    To install org-page manually you should first install all
    dependencies listed in *README.org*. Once this has been completed,
    clone the repo:
 
-   : git clone https://github.com/kelvinh/org-page.git
+   : git clone https://github.com/erichlf/org-page.git
 
    After that, please remember to add this location to your emacs'
    =load-path= variable so that emacs can find the package.
 
-** Through package management system (strongly recommended)
+   If you are using [[https://spacemacs.org][spacemacs]] checkout my [[https://erichlf.github.io/blog/2020/08/19/spacemacs+org-page/][blog post]].
+
+** Through package management system (not recommended)
+
+   The current version is not on melpa and so this method is not recommended.
 
    If you have never used emacs' package management system before,
    just add the following to your =init.el=:

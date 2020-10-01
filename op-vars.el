@@ -1,10 +1,10 @@
 ;;; op-vars.el --- Variable configurations required by org-page
 
-;; Copyright (C) 2012, 2013, 2014 Kelvin Hu
+;; Copyright (C) 2012, 2013, 2014 Kelvin Hu, 2020 Erich L Foster
 
-;; Author: Kelvin Hu <ini DOT kelvin AT gmail DOT com>
+;; Author: Kelvin Hu <ini DOT kelvin AT gmail DOT com, Erich L Foster <erichlf AT gmail DOT com>
 ;; Keywords: convenience
-;; Homepage: https://github.com/kelvinh/org-page
+;; Homepage: https://github.com/erichlf/org-page
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -94,7 +94,7 @@ points to the directory `themes' in org-page installation directory."
   :group 'org-page :type 'symbol)
 
 
-(defcustom op/personal-github-link "https://github.com/kelvinh/org-page"
+(defcustom op/personal-github-link "https://github.com/erichlf/org-page"
   "The personal github link."
   :group 'org-page :type 'string)
 
@@ -209,7 +209,7 @@ default value is `op/get-file-category'."
     <lastBuildDate>{{date}}</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator \
-(https://github.com/kelvinh/org-page)</generator>
+(https://github.com/erichlf/org-page)</generator>
     {{#items}}
     <item>
       <title>{{item-title}}</title>

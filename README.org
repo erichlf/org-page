@@ -1,9 +1,9 @@
 #+TITLE:     Org-page: Static Site Generator
-#+AUTHOR:    Erich L Foster
+#+AUTHOR:    Kevin Hu, Erich L Foster
 #+EMAIL:     erichlf@gmail.com
 #+DATE:      2020-09-27
 
-* This is a fork of the original org-page develop by [[https:://github.com/sillykelvin][Kelvin Hu]].
+* This is a fork of the original org-page develop by [[https:://github.com/sillykelvin][Erich L Foster]].
   As I am just starting to take this over it may be some time before I add any new features
   that are something I truly want. Initially, my goal is to fix problems I have found and
   then I will start adding features.
@@ -57,10 +57,7 @@
 
 ** Installation
 
-   Org-page is now available from the famous emacs package repo [[http://melpa.milkbox.net/][melpa]]
-   so the recommended way is to install it through emacs' package
-   management system. For more info about installation, please see
-   *quick-guide.org* in the "doc" folder.
+   For more info about installation, please see *quick-guide.org* in the "doc" folder.
 
 ** Configuration
 

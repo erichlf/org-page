@@ -1,10 +1,10 @@
 ;;; op-git.el --- git related functions required by org-page
 
-;; Copyright (C) 2012, 2013, 2014 Kelvin Hu
+;; Copyright (C) 2012, 2013, 2014 Kelvin Hu, 2020 Erich L Foster
 
-;; Author: Kelvin Hu <ini DOT kelvin AT gmail DOT com>
+;; Author: Kelvin Hu <ini DOT kelvin AT gmail DOT com, Erich L Foster <erichlf AT gmail DOT com>
 ;; Keywords: convenience
-;; Homepage: https://github.com/kelvinh/org-page
+;; Homepage: https://github.com/erichlf/org-page
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
