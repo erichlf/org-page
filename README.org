@@ -3,7 +3,7 @@
 #+EMAIL:     erichlf@gmail.com
 #+DATE:      2020-09-27
 
-* This is a fork of the original org-page develop by [[https:://github.com/sillykelvin][Erich L Foster]].
+* This is a fork of the original org-page develop by [[https:://github.com/sillykelvin][sillykelvin]].
   As I am just starting to take this over it may be some time before I add any new features
   that are something I truly want. Initially, my goal is to fix problems I have found and
   then I will start adding features.
